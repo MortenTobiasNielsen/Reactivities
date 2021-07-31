@@ -21,7 +21,7 @@ namespace Persistence
 
                 foreach (AppUser user in users)
                 {
-                    await userManager.CreateAsync(user, "Pa$$w0rd");   
+                    await userManager.CreateAsync(user, "Pa$$w0rd");
                 }
             }
 
