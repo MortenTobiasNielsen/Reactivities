@@ -14,7 +14,7 @@ export default observer(function RegisterForm() {
     <Formik
       initialValues={{
         displayName: "",
-        username: "",
+        username: "", 
         email: "",
         password: "",
         error: null,
